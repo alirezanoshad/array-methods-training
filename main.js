@@ -43,3 +43,16 @@ let reduceFunc = list3.reduce((total, value) => {
     return total - value
   })
   console.log(reduceFunc2);
+
+
+
+
+
+
+ 
+// SECRECT(additional) DO NOT READ!!!
+let video = document.querySelector('.video')
+  setTimeout(() => {
+    video.style.display = 'none'
+
+  }, 8000);

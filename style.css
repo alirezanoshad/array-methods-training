@@ -1,3 +1,21 @@
-body{
-    background-color: rgb(69, 69, 67);
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(69, 69, 67);
+  margin: 0px;
+  padding: 0px;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+#mainV {
+  height: 80vh;
+  width: 50%;
+  /* background-color: aqua; */
 }
