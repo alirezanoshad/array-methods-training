@@ -52,7 +52,10 @@ let reduceFunc = list3.reduce((total, value) => {
  
 // SECRECT(additional) DO NOT READ!!!
 let video = document.querySelector('.video')
+let mainV = document.querySelector('#mainV')
+mainV.play()
   setTimeout(() => {
     video.style.display = 'none'
+    mainV.pause()
 
   }, 8000);
